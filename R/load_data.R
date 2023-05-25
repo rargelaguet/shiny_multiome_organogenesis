@@ -1,6 +1,6 @@
 if (Sys.info()[['nodename']]=="BI2404M") {
   data_folder <- "/Users/argelagr/data/gastrulation_multiome_10x/test/shiny"
-} else if (Sys.info()[['nodename']]=="rargelaguet.local") {
+} else if (Sys.info()[['nodename']]=="CAM-JTYCW2FJ91") {
   data_folder <- "/Users/rargelaguet/data/gastrulation_multiome_10x/shiny"
 } 
 

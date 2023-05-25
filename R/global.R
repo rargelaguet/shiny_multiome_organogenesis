@@ -4,7 +4,7 @@
 
 if (Sys.info()[['nodename']]=="BI2404M") {
   data_folder <- "/Users/argelagr/data/gastrulation_multiome_10x/shiny"
-} else if (grepl("CAM-",Sys.info()[['nodename']])) {
+} else if (Sys.info()[['nodename']]=="BAI-JTYCW2FJ91") {
   data_folder <- "/Users/rargelaguet/data/gastrulation_multiome_10x/shiny"
 }
 
